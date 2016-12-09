@@ -1,0 +1,1346 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.9",
+    "versionPublish": "3.10.1",
+    "name": "Drakenboot",
+    "favicon": "@PROJECT_PATH@/assets/images/12079333-1038076756226428-34817166130842084-n-960x640-82.jpg",
+    "path": "file:///H:",
+    "screenshot": "screenshot.png",
+    "theme": {
+      "styling": {}
+    },
+    "uniqCompNum": 0
+  },
+  "pages": {
+    "wzw.html": {
+      "settings": {
+        "title": "wie zijn wij",
+        "meta_descr": "drakenbootsite  van de concretedragons. Meevaren of een keer meetrainen kan altijd. ook voor een team uitje kan je bij ons terecht.\nWij trainen op de Gaasperplas in Amsterdam.\nWatersport en peddelen is leuk",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-navbar__items a": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-17",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/12032081-1038076762893094-7767045758589826256-n-960x640-8.jpg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Draak",
+              "link": "",
+              "title": "Draak",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://www.facebook.com/Drakenbootvereniging/\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">facebook</a>",
+          "items": "  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"wzw.html\"></a></li>    ",
+          "buttons": "     <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Home</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"wzw.html\" data-toolbar=\"-mbrBtnMove\">Wie zijn wij</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"TD.html\" data-toolbar=\"-mbrBtnMove\">Titanic</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"DR.html\" data-toolbar=\"-mbrBtnMove\">Clinics</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"CF.html\" data-toolbar=\"-mbrBtnMove\">Contactformulier</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"NI1.html\" data-toolbar=\"-mbrBtnMove\">Nieuws</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"info.html\" data-toolbar=\"-mbrBtnMove\">Info pagina</a></li>   "
+        },
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "H1": {
+              "text-align": "right",
+              "font-size": "60px"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header4-18",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/12043076-1038076726226431-3392019670327384638-n-960x640-57.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "left",
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">contactpagina</a> "
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#000000"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#000000"
+            },
+            ".mbr-article P": {
+              "font-size": "18px"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-32",
+          "_params": {
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "<br>ONS CLUBGEBOUW",
+          "meta": "",
+          "text": "<p>Dit drakenbootteam is in 1995 in Amstelveen van start gegaan als gelegenheidsteam. Door de jaren heen is Concrete Dragons uitgegroeid tot één van de zeven Nederlandse wedstrijdteams.&nbsp;</p><p>&nbsp;De doelstelling van Concrete Dragons is om op sportief gebied het hoogst haalbare te bereiken, zonder de gezelligheid en saamhorigheid uit het oog te verliezen.&nbsp;</p><p>&nbsp;Sinds april 2007 zijn wij in het bezit van een eigen clubhuis aan de Gaasperplas in Amsterdam Zuid Oost. Hier liggen onze boten en hebben wij voldoende ruimte om te trainen en diverse leuke of sportieve activiteiten te organiseren.</p><p>&nbsp;Er kan eenmaal per week getraind worden, op de dinsdagavond van 18.30 -19.30 uur. Wil je eens een training meemaken? Meld je dan aan voor een proefles via  het contactformulier of kom gewoon een keer langs.</p><p>&nbsp;Het team vaart in Nederland zo'n zes á zeven wedstrijden per jaar waarbij onder andere gestreden wordt om de NDBF-cup en het Nederlands Kampioenschap. Maar ook in het buitenland kom je ons tegen. Wij hebben in Kaapstad (2004), Berlijn (2005), Toronto (2006) en in drie steden in China (2008) meegedaan aan diverse internationale drakenbootwedstrijden.</p><p>&nbsp;</p><p>Zoals je ziet is er genoeg te doen en te beleven! Ben je sportief en niet bang voor water probeer dan deze explosieve sport eens uit!&nbsp;</p><p>We zien je graag in onze boot!</p><p><br></p><p><b>Wil je een keer mee trainen kom dan langs of meld je aan via ons<a href=\"CF.html\" class=\"text-black\"> contactformulier</a></b></p><p></p><div></div><p></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "text": "The Empire State Building was designed by William F. Lamb from the architectural firm Shreve, Lamb and Harmon.",
+          "_name": "map1",
+          "coord": [
+            52.3044981,
+            4.980576000000042
+          ],
+          "_anchor": "map1-31",
+          "_params": {
+            "googleMap": {
+              "placeId": "ChIJtcaxrqlZwokRfwmmibzPsTU",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          }
+        },
+        {
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-32",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!"
+        }
+      ]
+    },
+    "DR.html": {
+      "settings": {
+        "title": "drakenboot race",
+        "meta_descr": "drakenbootsite  van de concretedragons. Meevaren of een keer meetrainen kan altijd. ook voor een team uitje kan je bij ons terecht.\nWij trainen op de Gaasperplas in Amsterdam.\nWatersport en peddelen is leuk",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-navbar__items a": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-19",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/12032081-1038076762893094-7767045758589826256-n-960x640-8.jpg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Draak",
+              "link": "",
+              "title": "Draak",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://www.facebook.com/Drakenbootvereniging/\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">facebook</a>",
+          "items": "  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"wzw.html\"></a></li>    ",
+          "buttons": "     <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Home</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"wzw.html\" data-toolbar=\"-mbrBtnMove\">Wie zijn wij</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"TD.html\" data-toolbar=\"-mbrBtnMove\">Titanic</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"DR.html\" data-toolbar=\"-mbrBtnMove\">Clinics</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"CF.html\" data-toolbar=\"-mbrBtnMove\">Contactformulier</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"NI1.html\" data-toolbar=\"-mbrBtnMove\">Nieuws</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"info.html\" data-toolbar=\"-mbrBtnMove\">Info pagina</a></li>   "
+        },
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "H1": {
+              "text-align": "right",
+              "font-size": "60px"
+            },
+            "P": {
+              "text-align": "right"
+            }
+          },
+          "_anchor": "header4-20",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/11147169-978247802209324-492354234196521717-n-960x639-99.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "right",
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "",
+          "text": "<p>200M race &nbsp;Concrete dragons &nbsp;&nbsp; &nbsp;</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">contactpagina</a> "
+        },
+        {
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article H1": {
+              "font-size": "13px",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-25",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#28324e",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=v8fZLYa_fNw",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "Drakenbootrace",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<h1>Hier een voorbeeld van een drakenbootrace op de Bosbaan in Amsterdam.</h1><p><br></p><p><b>CLINICS<br></b>Deze sport is ook ideaal &nbsp;als teambuildingsactiviteit .<br>Professionele trainers leren hoe je moet peddelen en de tactiek om zo snel mogenlijk te varen.&nbsp;</p><p>Een keertje proberen of voor meer informatie meld je dan aan via ons contactformulier</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-33",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#2969b0",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!"
+        }
+      ]
+    },
+    "CF.html": {
+      "settings": {
+        "title": "Contactformulier",
+        "meta_descr": "drakenbootsite  van de concretedragons. Meevaren of een keer meetrainen kan altijd. ook voor een team uitje kan je bij ons terecht.\nWij trainen op de Gaasperplas in Amsterdam.\nWatersport en peddelen is leuk",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-navbar__items a": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-21",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/12032081-1038076762893094-7767045758589826256-n-960x640-8.jpg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Draak",
+              "link": "",
+              "title": "Draak",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://www.facebook.com/Drakenbootvereniging/\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">facebook</a>",
+          "items": "  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"wzw.html\"></a></li>    ",
+          "buttons": "     <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Home</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"wzw.html\" data-toolbar=\"-mbrBtnMove\">Wie zijn wij</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"TD.html\" data-toolbar=\"-mbrBtnMove\">Titanic</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"DR.html\" data-toolbar=\"-mbrBtnMove\">Clinics</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"CF.html\" data-toolbar=\"-mbrBtnMove\">Contactformulier</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"NI1.html\" data-toolbar=\"-mbrBtnMove\">Nieuws</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"info.html\" data-toolbar=\"-mbrBtnMove\">Info pagina</a></li>   "
+        },
+        {
+          "_name": "form1",
+          "_anchor": "form1-28",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/11037882-1050665601634210-7440319437275428403-n-960x540-66.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "CONTACT FORM",
+          "form": {
+            "action": "ecengelen@tiscali.nl",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Naam"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Telefoon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Bericht"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-33",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#2969b0",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "FOLLOW US",
+          "icons": " <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Drakenbootvereniging/?fref=ts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>         "
+        }
+      ]
+    },
+    "NI1.html": {
+      "settings": {
+        "title": "Nieuwspagina",
+        "meta_descr": "drakenbootsite  van de concretedragons. Meevaren of een keer meetrainen kan altijd. ook voor een team uitje kan je bij ons terecht.\nWij trainen op de Gaasperplas in Amsterdam.\nWatersport en peddelen is leuk",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-navbar__items a": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-23",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/12032081-1038076762893094-7767045758589826256-n-960x640-8.jpg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Draak",
+              "link": "",
+              "title": "Draak",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://www.facebook.com/Drakenbootvereniging/\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">facebook</a>",
+          "items": "  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"wzw.html\"></a></li>    ",
+          "buttons": "     <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Home</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"wzw.html\" data-toolbar=\"-mbrBtnMove\">Wie zijn wij</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"TD.html\" data-toolbar=\"-mbrBtnMove\">Titanic</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"DR.html\" data-toolbar=\"-mbrBtnMove\">Clinics</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"CF.html\" data-toolbar=\"-mbrBtnMove\">Contactformulier</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"NI1.html\" data-toolbar=\"-mbrBtnMove\">Nieuws</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"info.html\" data-toolbar=\"-mbrBtnMove\">Info pagina</a></li>   "
+        },
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "H1": {
+              "text-align": "right",
+              "font-size": "60px"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header4-24",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/08244-n-960x640-65.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "left",
+            "overlay": true,
+            "overlayOpacity": "0",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "Concrete dragons",
+          "text": "Onze nieuws draak",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">contactpagina</a> "
+        },
+        {
+          "_name": "header3",
+          "_styles": {
+            "P": {
+              "color": "#252525"
+            }
+          },
+          "_anchor": "header3-38",
+          "title": "Drakenboot nieuwsberichten&nbsp;",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "<p>Op deze pagina vind je onze nieuwsberichten.</p><p>Update 13-6-2016 &nbsp; &nbsp;geplaatst door EE &nbsp;&nbsp;</p><p>Goncrete dragons hebben samen met de EHDC een team gevormd, en hebben onder de naam &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><span style=\"line-height: 1.42857143;\">Gaasperplas Dragons meegevaren in Alkmaar.<br>De uitslagen vindt u op onze beginpagina onder kopje informatie &nbsp;en dan uitslagen.</span></p><p><br><a href=\"http://www.concretedragons.nl/fotopagina/fs_aux.html\" target=\"_blank\"><br></a></p>Update 22 - 7 - 2016 &nbsp; &nbsp; Verslag John Hopman &nbsp; &nbsp;geplaatst door EE<br><p>&nbsp;<a href=\"http://www.concretedragons.nl/fotopagina/fs_aux.html\" target=\"_blank\">Update 26 -4 - 2016</a>&nbsp; &nbsp; &nbsp; &nbsp;Concrete Dragons aktie foto's &nbsp; alweer van een paar jaar geleden</p><p><br></p>Update 14-4-2016 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Opendag &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; geplaatst door EE<br><p>Update 1-3-2016 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Reisverslag &nbsp; &nbsp; &nbsp;GRR &nbsp; &nbsp; &nbsp; &nbsp;Bas</p>"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-33",
+          "text": "<p><br></p><p>Beste Peddelaars,</p><p><br></p><p>Afgelopen dinsdag op de training een onverwacht grote bemanning in de boot.</p><p>De 9 Concreters die zich hadden aangemeld maar ook Jojanneke kwam zwemmend vanaf de surfvereniging om met ons een uurtje te peddelen en na afloop weer vrolijk zwemmend terug te gaan. Een bikkel.</p><p>2 Italianen die bij het hek stonden en zich afvroegen wat gaan die nu doen in die kano, kwamen op de vraag ga mee dan weet je wat peddelen is.</p><p>Ze gingen mee en waren een goede aanvulling in de boot om de zware  training van Ed te ondergaan. Ze hebben de training keurig volgehouden maar vonden het wel zwaar. Een Italiaan woont in de buurt dus wie weet zien we hem terug.</p><p><br></p><p>Voor de komende weken gaan de trainingen niet door. Pas op 23 augustus staan er weer genoeg peddelaars op groen in de planner.</p><p>Op zondag 21 augustus is een evenement in Nieuwegein toegevoegd. Hiervoor proberen wij ook onze Ballast Nedam collega’s in Nieuwegein te enthousiasmeren om een keer te proeven aan het drakenboor varen.</p><p><br></p><p>Willen jullie op de planner aangeven of jullie komen of niet. Het zal lastig worden met de communicatie omdat die datum voor velen nog in de vakantieperiode valt en anderen net zijn thuisgekomen. Vul de planner in en houdt de mailbox in de gaten.</p><p><br></p><p>Voor iedereen een goed vakantie toegewenst en tot de reguliere training op de 23e augustus. Of wellicht de 21e op het evenement in Nieuwegein.</p><p><br></p><p><br></p><p>John Hopman</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p>Reisverslag Great River Race in Londen op 25 september 2010&nbsp;</p><div>door Bas ter Riet;&nbsp;</div><div><br></div><div>Bliep Bliep... voor mij zit een caissière het ene na het ander energie drankje te scannen, de energie repen zullen nu volgen. Het is donderdag en ik begeef me in de Boni te Reigersbos. De voorbereiding van de Great River Race (GRR) is in volle gang. Eerst nog een gewone training maar dan zal het marathon drakenboot/roei feest te Londen los barsten. De avond breng ik door bij mijn trainer die mij om de een of andere reden maar de hele tijd Zoon blijft noemen. Na vele oncomfortabele momenten op de bank besluiten we om vroeg naar bed te gaan. Immers Alkmaar zal de volgende dag vroeg voor onze neus staan. 7.00 wel te verstaan, wekker gezet om 6.15 en ik sta op het punt om eens flink de koffievoorraad van de trainer te verdunnen maar daar is Alkmaar al. Bianca, Martin, IJs, Lars en Pieter zitten er al helemaal klaar voor. Instappen en wegwezen. Nog even de spiegels verzetten en gaan met die banaan. Onderweg komen we al vrij snel de Landrover met Gert en Petra tegen op de trailer, twee drakenboten en de outrigger van Bloemendaal, kennet op zijn Fries. Er is een drakenboot groepje uit Berlijn wat ook wil varen, vandaar. En outrigger Ralf met een aantal Alkmaar Dragons vrouwen had volgens mij een Nederlands primeur door voor de eerste keer de GRR met een Outrigger te doen, vandaar. Later kwam het Amstelveen busje met chauffeur Nico (aka My Space aka Jabbeke) de colonne te versterken. We waren compleet. Weer via Belgie op naar Frankrijk en dan via Calais naar Dover, toen op naar Londen. Alles zonder problemen. De boten van de trailer halen bij de Isle of Dogs (centrum Londen). Vandaar naar de finish in Richmond. Daar de souveniertjes gekocht en weer verder naar de pizzeria die Carina had uitgezocht. Chauffeurs gewisseld en… Vanaf hier ging iets mis. IJsbrand had zijn chauffeurs taken neergelegd en Martin mocht het roer overnemen en jawel binnen een mijl gaan we voor de bijl. Scratch… bochtje verkeerd genomen en een andere auto geraakt. Op zoek naar de eigenaar van de auto. De persoon gevonden en de situatie uitgelegd en toen het schadeformulier getekend. Geschrokken weer verder naar de pizzeria. Daar heerlijk gegeten. Ondergetekende nam als voorgerecht een nagerecht (dolce) een heerlijke Tiramisu de serveerster keek verbouwereerd naar mijn gezicht. En er kwam iets uit haar mond wat leek te klinken als: You’re the first person ever who did this… Ach Ja, je moet alles eens in je leven gedaan hebben. Daarna een heerlijk gerecht gehad en vervolgens maar een nagerecht ;). Na het heerlijke eten gingen we voldaan op weg naar ons hotel “Ace”. Nu doen we dit al jaren en is er altijd op de weg van Richmond naar het Ace hotel een weg waar de keuze is om de weg via de brug te nemen (zeer smal) en om de weg niet via de brug te doen (breed). Helden gaan altijd voor de optie “brug”. En we weten allemaal wat Martin is…. Dus wij via de brug de weg vervolgen, en jawel. Boem… Spiegel eraf. Dat was ongelukje 2. Uiteindelijk hebben we het hotel gehaald en gingen maar snel naar bed want morgen was het wedstrijd dag. Wedstrijd dag! Eerst ontbeten en daarna groepsbespreking wat eigenlijk betekend dat Nico zijn traditioneel kado aan Gert geeft (traditie). Het is natuurlijk moeilijk om origineel te zijn, maar er zijn mensen die daar geen moeite mee hebben om dat te zijn waardoor Gert uiteindelijk in een oranje-sumo-worstelaars-pak liep en we met de busjes na de startlocatie Isle of Dogs konden gaan. Er waren iets van 10 drakenboten, weinig van de vaste Engelse boten (Henley en Masters waren er niet bij ivm Engelse Kampioenschappen In Nottingham). Wel was er een Tsjechisch (heerlijk struikelwoord) team, Masters vergelijkbaar, en ook waren de Rafters (snelste van vorig jaar) er met hun outriggerpeddels. Het was een drukte van jewelste, er waren volgens mij 100 boten meer dan vorig jaar, en uiteindelijk was het ook enorm lastig om de boot in het water te krijgen. Om met een drakenboot op drijvers te staan op een Thames die “los” is golfje hier golfje daar. Goed dan de Race zelf: We zaten allemaal op ons bankje, drum voorop stuur achterop klaar om naar de start te gaan…. Maar er was al gestart! Blijkbaar duurde het allemaal zo lang om alle boten in het water te krijgen dat we niet met de rest van de drakenboten konden starten, dus koud aan de start zonder warming up meteen vol aan de bak. Met geen boot binnen de eerste 500 meter in het vooruitzicht… Maar goed de focus lag toch op overleven, de Thames was vrij heftig voor mijn gevoel heftiger dan de 2 keer ervoor. Je zag Astrid (drum) denken: waaraan ben ik in godsnaam begonnen... Afijn, het voelde al snel vertrouwd aan. Pompen of verzuipen. Deze tekst kan je gedurende de race soms letterlijk soms figuurlijk opvatten. De trainer was weer van de afdeling saai.nl want verder dan 20 met kracht kwam hij dit jaar niet. Er waren 2 drink”pauzes” en 1 maal een setje van 40 maal met 2 seconde rust achterin. Ondergetekende was na 20 km zo ongeveer in het vagevuur en na nog eens 10 km zag hij een mannetje met hoorntjes lachend te kijken. Ik rook zo’n beetje de poort van de Hel al… Maar toen ik beter rook dacht ik, wacht eens,.. dit is de geur van hamburgers! Meerdere mensen roken dit en toen was het al snel van: we zijn er bijna nog een paar honderd meter…. Dit bleek niet te kloppen, het waren nog 5 kilometers… Intussen hadden we vele boten ingehaald en waren helaas zelf door het Tsjechische team ingehaald… De Thames was intussen rustig er waren veel mensen langs de kant, ja we waren echt in Richmond. De finish. Waarschijnlijk hebben we er 2 uur en 25 minuten over gedaan, 9 minuten langzamer dan vorig jaar maar met een veel minder getraind team. Cas heeft berekend met zijn prachtige formule dat de gemiddelde snelheid 14,8 km/h was! Toen aan land komen. Dit waren een paar moeilijke momenten: Ik denk dat ik namens iedereen spreek: Koud! Nog maar net gestopt en meteen al rillen en trillen en dan die billen. Echt een heel apart gevoel. Boot uit het water halen, op adem komen, proberen te lopen. Op naar de traditionele Hamburgers &amp; Bier. Een aantal mensen gingen al snel op pad om de busjes op te halen van de start plek, iemand heeft toen nog onderweg een kleine aanvaring gehad, auto tegen busje aan waarbij spiegel loskwam (ongelukje 3). Uiteindelijk allemaal verzameld bij ons traditioneel restaurant, wederom weer heerlijk gegeten en gepraat waarbij een typerend gesprek is dat het niet stoer is om te zeggen dat het pijn doet: Watje krijg je dan te horen maar als je zegt dat een makkie was je te horen krijgt: Had je niet wat meer aan die peddel kunnen trekken? Daarna naar het hotel en (ik dan) meteen naar bed. Volgende dag weer naar huis. En terwijl er zaterdag werd gesproken over: nooit meer (ongetraind)! Begonnen er in het busje toch alweer voorzichtige gesprekken over GRR 2011, dat het toch wel wat heeft allemaal…. Nadat tegen het Concrete gedeelte van de Titanic dragons werd gezegd: tot morgen, werd tegen het United gedeelte gezegd: tot zaterdag GRR ;)!</div><div><br></div><div>Bas Sate</div><div>&nbsp; &nbsp; &nbsp;</div><p></p>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-32",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3d8eb9",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/gaasper2016-677x960-50.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "Opendag Watersport Gaasperplas",
+          "meta": "Geplaatst op 14-4-2016 &nbsp;door EE",
+          "text": "<p>Op 3 Juli 2016 zijn wij weer aanwezig tijdens de open dag aan de Gaasperplas.<br>Op deze dag zijn alle verenigingen aanwezig, dus wil je zeilen suppen of bij ons in de drakenboot varen kom dan langs, hier zijn geen kosten aan verbonden.</p><p>Op deze dag worden ook diverse demonstaties gegeven dus als het weer meewerkt wordt het een geweldige dag.</p><p>Nadere informatie volgt nog.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-30",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3d8eb9",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "FOLLOW US",
+          "icons": " <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Drakenbootvereniging/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>         "
+        }
+      ]
+    },
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "drakenboot site  van de concrete dragons. Meevaren of een keer mee trainen kan altijd. ook voor een team uitje kan je bij ons terecht.\nWij trainen op de Gaasperplas in Amsterdam.\nWatersport en peddelen is leuk",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#333333"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#292929"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "alias": "dropdown-menu",
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-34",
+          "_params": {
+            "bgColor": "#333333",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-164x70-33.png",
+              "class": "",
+              "height": 128,
+              "alt": "Facebook",
+              "link": "https://www.facebook.com/Drakenbootvereniging/?fref=ts",
+              "title": "Facebookpagina Concrete Dragons",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://www.facebook.com/Drakenbootvereniging/?fref=ts\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">facebook</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Wie zijn wij</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"wzw.html\">Concrete dragons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TD.html\">Titanic Dragons</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Informatie</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"NI1.html\">Nieuwspagina</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"info.html\">Algemene Informatie</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"CF.html\">Contact Formulier</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"CF.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Uitslagen 2016</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://www.racethedragon.nl/uitslagen/\" target=\"_blank\">Race The Dragon</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">New Item</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">New Item</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">New Item</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">New Item</a></div></div></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "H1": {
+              "text-align": "right",
+              "font-size": "60px"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header4-1",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/drakenboot.gif",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "left",
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "<br>",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">contactpagina</a> "
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525",
+              "text-align": "left"
+            }
+          },
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-32",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "ONE OF THE EASIEST WEBSITE BUILDERS TODAY.",
+          "text": "Update 22-7-2016    geplaatst door EE   &nbsp;Nieuwspagina<br>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">TRY FOR FREE</a>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#000000",
+              "font-size": "32px"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-30",
+          "_params": {
+            "showCaption": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "&nbsp;<br><br>meer weten",
+          "meta": "",
+          "text": "Op deze website kunt u alles vinden over drakenboot team Concrete dragons&nbsp;<div>Maak kennis met de leden van ons team en bekijk alle uitslagen van wedstrijden en de behaalde resultaten.&nbsp;</div><div>Wilt u ons aanmoedigen of gewoon eens een wedstrijd bezoeken van deze wervelende sport?&nbsp;</div><div>Kijk dan in de rubriek nieuws om de plaats en dag in uw agenda in te vullen.</div><div>Maar ook vrijblijvend meedoen aan één van onze trainingen om de explosieve sport&nbsp;</div><div>van nabij te ervaren behoort tot de mogelijkheden.  U kunt zich aanmelden via onze<b> <a href=\"CF.html\">contactpagina</a>&nbsp;</b></div><div>Wij wensen u veel leesplezier en ontmoeten u graag bij onze trainingen en wedstrijden!&nbsp;</div><div><br></div><h1><br></h1>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-29",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#2c82c9",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "Deel deze pagina!"
+        }
+      ]
+    },
+    "TD.html": {
+      "settings": {
+        "title": "Informatie algemeen",
+        "meta_descr": "drakenbootsite  van de concretedragons. Meevaren of een keer meetrainen kan altijd. ook voor een team uitje kan je bij ons terecht.\nWij trainen op de Gaasperplas in Amsterdam.\nWatersport en peddelen is leuk"
+      },
+      "components": [
+        {
+          "_name": "header3",
+          "_styles": {
+            "P": {
+              "color": "#000000",
+              "font-size": "14px"
+            }
+          },
+          "_anchor": "header3-29",
+          "title": "Titanic dragons&nbsp;",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "<br>Welkom op de pagina's van Titanic Dragons<br><br>Wie of wat is Titanic Dragons?<br>Titanic Dragons is een combinatieteam dat bestaat uit teamleden van United Dragons en Concrete Dragons.<br><br><span style=\"line-height: 1.42857143;\">Want hoewel daar op Nederlandse wedstrijddagen niet veel van te zien is en de beide teams dan verbeten elkaar proberen te bestrijden, bestaat er al een jarenlange vriendschapsband tussen de beide verenigingen.</span><br>Zo goed zelfs dat bij buitenlandse reizen van een van de verenigingen al vaker leden van de andere vereniging in het team zijn uitgenodigd.<br><br>Zo werd in 2005 door United Dragons aan een aantal leden van Concrete Dragons gevraagd om mee te doen aan een marathonwedstrijd op een gletsjermeer bij Bern in Zwitserland. Zo'n tien peddelslagen na de start van de wedstrijd zonk de drakenboot door een hevige golfslag die veroorzaakt werd door een gemotoriseerde officialsboot.<br>Na deze koude ervaring werd getracht om weer enigzins op temperatuur te komen door het drinken van een borrel.<br>Hierbij kwam ter sprake dat deze vertoning toch wel erg leek op het zinken van de Titanic in het begin van de 20e eeuw.<br>Ook deze boot zonk terwijl de verf nog bijna nat was en hij goed en wel nog maar nauwelijks op het water lag.<br><br>De naam Titanic Dragons was geboren en besloten werd om de samenwerking onder deze naam door te zetten bij het meedoen aan buitenlandse marathon-evenementen. Sindsdien wordt jaarlijks de Great River Race op de Theems in Londen gevaren en worden daarvoor gezamenlijke trainingen georganiseerd<br><br>Ook heeft Concrete onder zijn eigen naam aan deze wedstrijd meegedaan, zie hier de &nbsp; &nbsp; &nbsp;<a href=\"http://www.bing.com/videos/search?q=concrete+dragons&amp;qpvt=concrete+dragons&amp;view=detail&amp;mid=F182CDD6B87D8CA51E54F182CDD6B87D8CA51E54&amp;FORM=VRDGAR\"> Film gemaakt door G.de Vos</a><br><br><br><br>"
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/602-565x424-43-565x424-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/602-565x424-43.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/611-800x536-48-800x536-59.jpg",
+                "image": "@PROJECT_PATH@/assets/images/611-800x536-48.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/620-800x536-42-800x536-79.jpg",
+                "image": "@PROJECT_PATH@/assets/images/620-800x536-42.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/p1040677-4000x3000-70-2000x1500-65.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p1040677-4000x3000-70.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/p1040648-4000x3000-73-2000x1500-18.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p1040648-4000x3000-73.jpg",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/903-720x480-30-720x480-42.jpg",
+                "image": "@PROJECT_PATH@/assets/images/903-720x480-30.jpg",
+                "active": false
+              },
+              {
+                "caption": "<p><a href=\"TD.html\" class=\"text-info\">Titanic Dragons</a></p>",
+                "thumb": "@PROJECT_PATH@/assets/images/899-720x480-25-720x480-22.jpg",
+                "image": "@PROJECT_PATH@/assets/images/899-720x480-25.jpg",
+                "active": false
+              },
+              {
+                "caption": "<p><a href=\"#top\" target=\"_blank\">Great River Race London</a><a href=\"http://\"></a></p>",
+                "thumb": "@PROJECT_PATH@/assets/images/168279935-o-1023x682-83-1023x682-40.jpg",
+                "image": "@PROJECT_PATH@/assets/images/168279935-o-1023x682-83.jpg",
+                "active": false
+              }
+            ],
+            "showText": false,
+            "bgColor": "#4c6972",
+            "fullWidth": true,
+            "noGutter": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-41",
+          "articleLayout": false
+        },
+        {
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-26",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#27aae0",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!"
+        },
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#cad9df"
+            },
+            ".mbr-navbar__section": {
+              "background": "#cad9df"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#28324e"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-38",
+          "_params": {
+            "color": "#cad9df",
+            "hamburgerColor": "#28324e",
+            "transparent": false,
+            "sticky": false,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": false,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-164x70-65.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "startpagina",
+              "link": "index.html",
+              "title": "Startpagina",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-black\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"page5.html\"></a></li>      ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Home</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"NI1.html\" data-toolbar=\"-mbrBtnMove\">Naar nieuwspagina</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"CF.html\" data-toolbar=\"-mbrBtnMove\">Naar de contactpagina</a></li>"
+        }
+      ]
+    },
+    "IA.html": {
+      "settings": {
+        "title": "Informatie algemeen",
+        "meta_descr": "drakenbootsite  van de concretedragons. Meevaren of een keer meetrainen kan altijd. ook voor een team uitje kan je bij ons terecht.\nWij trainen op de Gaasperplas in Amsterdam.\nWatersport en peddelen is leuk"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#cad9df"
+            },
+            ".mbr-navbar__section": {
+              "background": "#cad9df"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#28324e"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-38",
+          "_params": {
+            "color": "#cad9df",
+            "hamburgerColor": "#28324e",
+            "transparent": false,
+            "sticky": false,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": false,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-164x70-65.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "startpagina",
+              "link": "index.html",
+              "title": "Startpagina",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-black\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"page5.html\"></a></li>      ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Home</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"NI1.html\" data-toolbar=\"-mbrBtnMove\">Naar nieuwspagina</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"CF.html\" data-toolbar=\"-mbrBtnMove\">Naar de contactpagina</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header2",
+          "_anchor": "header2-31",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/les19.gif",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "right",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "title": "",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"http://www.concretedragons.nl/fotopagina/IMG_0572.JPG\" data-toolbar=\"-mbrBtnMove\">drakenbootrace</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"http://www.concretedragons.nl/fotopagina/IMG_0572.JPG\" data-toolbar=\"-mbrBtnMove\">ddrakenbootrace</a>"
+        }
+      ]
+    },
+    "info.html": {
+      "settings": {
+        "title": "Informatie pagina",
+        "meta_descr": "drakenboot algemene informatie"
+      },
+      "components": [
+        {
+          "_name": "features1",
+          "_anchor": "features1-27",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/water-259x194-36.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0",
+            "overlayColor": "#222",
+            "showHeader": false,
+            "showSubheader": false,
+            "columns": 4,
+            "showImages": false,
+            "showTitles": false,
+            "showCaptions": false,
+            "showButtons": true
+          },
+          "headerAlign": "left",
+          "header": "DROP-DEAD EASY WEBSITE MAKER",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "images/bootstrap.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title1": "BOOTSTRAP 3",
+          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": " <a data-app-btn=\"true\" href=\"http://drakenbootvaren.nl/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp;NDBF &nbsp;&nbsp;</a>             ",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "images/responsive.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title2": "RESPONSIVE",
+          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"http://www.idbf.org/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">&nbsp; IDBF &nbsp;</a> ",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "images/google-fonts.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title3": "WEB FONTS",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": " <a data-app-btn=\"true\" href=\"http://www.edbf.org/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">&nbsp; EBBF &nbsp; &nbsp; &nbsp;</a>  ",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "images/unlimited-websites.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title4": "UNLIMITED WEBSITES",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"http://www.idbf.org/mag_DBI.php\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">Tijdschrift</a> ",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#cad9df"
+            },
+            ".mbr-navbar__section": {
+              "background": "#cad9df"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#28324e"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-38",
+          "_params": {
+            "color": "#cad9df",
+            "hamburgerColor": "#28324e",
+            "transparent": false,
+            "sticky": false,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": false,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-164x70-65.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "startpagina",
+              "link": "index.html",
+              "title": "Startpagina",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-black\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"page5.html\"></a></li>      ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Home</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"NI1.html\" data-toolbar=\"-mbrBtnMove\">Naar nieuwspagina</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"CF.html\" data-toolbar=\"-mbrBtnMove\">Naar de contactpagina</a></li>"
+        },
+        {
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "header3-29",
+          "title": "Op deze pagina staan onze informatie berichten",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "<br><br>Hier vindt u &nbsp;diverse&nbsp;informatie &nbsp;berichten.&nbsp;<br>Update door EE op 10-5-2016<br>gepost door EE op 19-4-2016<br><br><br><b>Drakenbootvaren wat is dat?</b> <br><br>Drakenbootvaren is een oude Chinese traditie die dateert uit de vierde eeuw voor onze jaartelling. Een tijd vol rivaliteit, politieke samenzweringen en intriges. <br>De legende gaat dat in het koninkrijk van CHU, een door het volk geliefd staatsman, genaamd Qu Yuan, door de koning van zijn hoge ambt werd ontheven. Naar men zegt hebben corrupte hofbeambten deelgenomen aan de samenzwering. Verbannen uit het vorstelijk paleis werd Qu Yuan een zwervend dichter. Qu Yuan was geliefd onder de mensen die hij gedurende zijn reizen door Zuid-China ontmoette. Hij schreef over de liefde die hij koesterde voor zijn land en haar inwoners en betreurde het vertrouwen dat zijn koning had in de corrupte hofbeambten. Uiteindelijk overhandigde hij het hof een petitie, waarin hij al zijn grieven uitte. Daar de petitie direct werd verworpen, pleegde hij uit protest zelfmoord door zich te verdrinken in de Mi-Lo rivier. <br>Toen zijn vrienden en locale vissers dit zagen namen zij hun boten en zochten de rivier af naar zijn lichaam. Om te voorkomen dat het lichaam door vissen zou worden verzwolgen, sloegen zij met hun peddelbladen hard op het water en gooiden rijstknoedels in het water als voedsel voor zijn geest. <br>Enkele dagen later rapporteerden een man dat hij Qu Yuan's geest had ontmoet, die hem vertelde dat de rijst opgenomen was door een draak die zich vlak onder de oppervlakte schuil hield. Om de draak in het vervolg te verjagen, zou de rijst in bamboebladeren worden verpakt en met een uit vele kleuren bestaande draad dichtgebonden op het water worden gegooid. Zo kwam het dat ieder jaar, op de dag van zijn dood, de Chinezen het uiteindelijke protest van Qu Yuan herdenken door het houden van een Drakenfestival op de vijfde dag van de vijfde maand. Dit festival groeide uit tot het varen van wedstrijden, waarbij het slaan op de trommel het verjagen van de vissen symboliseert. <br>Uiteindelijk verspreidde het festival zich langs de kust en verder over de riviergemeenschappen van China. Via Zuid-Oost-Azie, bereikte het Japan, alwaar de eerste wedstrijden in 1655 te Nagasaki werden gehouden. <br>September 1995 werd er in Amstelveen een Chinese week georganiseerd. Als afsluiting van deze week werden er op de Amstelveense Poel drakenbootwedstrijden gehouden waaraan 6 teams, waaronder Ballast Nedam, aan meededen. Vanuit deze eerste kennismaking is er een hecht en fanatiek team gegroeid dat nu sinds 4 jaar meedoet aan diverse wedstrijden. <br>In Nederland is de Nederlandse DrakenBoot Federatie (NDBF) actief op nationaal en internationaal niveau. Naast de NDBF wedstrijden zijn er Bedrijvendagen waar gelegenheidteams aan meedoen. The Concrete Dragons hebben in 2001 een 2e plaats behaald bij het Nederlands Kampioenschap. Een jaar later werden ze Nederlands kampioen.<br><br>Dit drakenbootteam is in 1995 in Amstelveen van start gegaan als gelegenheidsteam. Door de jaren heen is Concrete Dragons uitgegroeid tot één van de zeven Nederlandse wedstrijdteams. <br> <br><span style=\"line-height: 1.42857143;\">De doelstelling van Concrete Dragons is om op sportief gebied het hoogst haalbare te bereiken, zonder de gezelligheid en saamhorigheid uit het oog te verliezen.&nbsp;</span><br> <br>Sinds april 2007 zijn wij in het bezit van een eigen clubhuis aan de Gaasperplas in Amsterdam Zuid Oost. Hier liggen onze boten en hebben wij voldoende ruimte om te trainen en diverse leuke of sportieve activiteiten te organiseren.<br> <br>Er kan eenmaal per week getraind worden, op de dinsdag avond van 18.30 -19.30 uur. Wil je eens een training meemaken? Meld je dan aan voor een proefles via  het secretariaat. (zie  Contact)<br> <br>Het team vaart in Nederland zo'n zes á zeven wedstrijden per jaar waarbij onder andere gestreden wordt om de NDBF-cup en het Nederlands Kampioenschap. Maar ook in het buitenland kom je ons tegen. Wij hebben in Kaapstad (2004), Berlijn (2005), Toronto (2006) en in drie steden in China (2008) meegedaan aan diverse internationale drakenbootwedstrijden.<br> <br>Zoals je ziet is er genoeg te doen en te beleven! Ben je sportief en niet bang voor water probeer dan deze explosieve sport eens uit! <br>We zien je graag in onze boot!<br><br><b><br></b><br><b><br></b><br><br>"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/cd-flyer2-3505x2480-56.jpg",
+                "contentAlign": "center",
+                "overlay": false,
+                "showTitle": false,
+                "title": "Slide 2",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": false,
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#ffffff",
+            "showBullets": true
+          },
+          "_anchor": "slider-32",
+          "articleLayout": false
+        },
+        {
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-30",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!"
+        }
+      ]
+    }
+  }
+}
